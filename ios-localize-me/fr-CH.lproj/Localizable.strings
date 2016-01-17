@@ -1,0 +1,18 @@
+/* Name of the flag */
+"FLAG_FILE" = "flag_france";
+
+/* The numeber 5 */
+"LABEL_FIVE" = "Cinq";
+
+/* The numeber 4 */
+"LABEL_FOUR" = "Quatre";
+
+/* The numeber 1 */
+"LABEL_ONE" = "Un";
+
+/* The numeber 3 */
+"LABEL_THREE" = "Trois";
+
+/* The numeber 2 */
+"LABEL_TWO" = "Deux";
+

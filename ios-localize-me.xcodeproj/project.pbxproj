@@ -66,6 +66,12 @@
 		89FC40BD1C4B5A300004833A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89FC40BE1C4B5A300004833A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		89FC40BF1C4B5AD20004833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89FC40C01C4B61270004833A /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		89FC40C11C4B61270004833A /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		89FC40C21C4B61270004833A /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/Main.strings"; sourceTree = "<group>"; };
+		89FC40C31C4B61270004833A /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		89FC40C41C4B61270004833A /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		89FC40C51C4B61270004833A /* fr-CH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CH"; path = "fr-CH.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +241,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"fr-CH",
 			);
 			mainGroup = 89FC40671C4B460E0004833A;
 			productRefGroup = 89FC40711C4B460E0004833A /* Products */;
@@ -328,6 +335,7 @@
 				89FC40781C4B460E0004833A /* Base */,
 				89FC40A31C4B51F00004833A /* fr */,
 				89FC40BA1C4B5A2F0004833A /* en */,
+				89FC40C21C4B61270004833A /* fr-CH */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -338,6 +346,7 @@
 				89FC407D1C4B460E0004833A /* Base */,
 				89FC40A41C4B51F00004833A /* fr */,
 				89FC40BB1C4B5A2F0004833A /* en */,
+				89FC40C31C4B61270004833A /* fr-CH */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -347,6 +356,7 @@
 			children = (
 				89FC40A81C4B56150004833A /* fr */,
 				89FC40B91C4B5A2F0004833A /* en */,
+				89FC40C51C4B61270004833A /* fr-CH */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -356,6 +366,7 @@
 			children = (
 				89FC40AD1C4B56150004833A /* fr */,
 				89FC40BC1C4B5A2F0004833A /* en */,
+				89FC40C41C4B61270004833A /* fr-CH */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -365,6 +376,7 @@
 			children = (
 				89FC40B21C4B56150004833A /* fr */,
 				89FC40BD1C4B5A300004833A /* en */,
+				89FC40C11C4B61270004833A /* fr-CH */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -375,6 +387,7 @@
 				89FC40B71C4B56160004833A /* fr */,
 				89FC40BE1C4B5A300004833A /* en */,
 				89FC40BF1C4B5AD20004833A /* Base */,
+				89FC40C01C4B61270004833A /* fr-CH */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
