@@ -1,0 +1,18 @@
+/* Name of the flag */
+"FLAG_FILE" = "flag_usa";
+
+/* The numeber 5 */
+"LABEL_FIVE" = "Five";
+
+/* The numeber 4 */
+"LABEL_FOUR" = "Four";
+
+/* The numeber 1 */
+"LABEL_ONE" = "One";
+
+/* The numeber 3 */
+"LABEL_THREE" = "Three";
+
+/* The numeber 2 */
+"LABEL_TWO" = "Two";
+

@@ -65,6 +65,7 @@
 		89FC40BC1C4B5A2F0004833A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89FC40BD1C4B5A300004833A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89FC40BE1C4B5A300004833A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89FC40BF1C4B5AD20004833A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +374,7 @@
 			children = (
 				89FC40B71C4B56160004833A /* fr */,
 				89FC40BE1C4B5A300004833A /* en */,
+				89FC40BF1C4B5AD20004833A /* Base */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
