@@ -49,6 +49,8 @@
 		89FC40931C4B460E0004833A /* ios_localize_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_localize_meUITests.swift; sourceTree = "<group>"; };
 		89FC40951C4B460E0004833A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89FC40A11C4B46340004833A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		89FC40A31C4B51F00004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		89FC40A41C4B51F00004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +303,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				89FC40781C4B460E0004833A /* Base */,
+				89FC40A31C4B51F00004833A /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				89FC407D1C4B460E0004833A /* Base */,
+				89FC40A41C4B51F00004833A /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
