@@ -15,6 +15,10 @@
 		89FC40891C4B460E0004833A /* ios_localize_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC40881C4B460E0004833A /* ios_localize_meTests.swift */; };
 		89FC40941C4B460E0004833A /* ios_localize_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC40931C4B460E0004833A /* ios_localize_meUITests.swift */; };
 		89FC40A21C4B46340004833A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 89FC40A11C4B46340004833A /* .gitignore */; };
+		89FC40A71C4B56150004833A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89FC40A91C4B56150004833A /* InfoPlist.strings */; };
+		89FC40AC1C4B56150004833A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89FC40AE1C4B56150004833A /* InfoPlist.strings */; };
+		89FC40B11C4B56150004833A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89FC40B31C4B56150004833A /* InfoPlist.strings */; };
+		89FC40B61C4B56160004833A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89FC40B81C4B56160004833A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		89FC40A11C4B46340004833A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		89FC40A31C4B51F00004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		89FC40A41C4B51F00004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		89FC40A81C4B56150004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89FC40AD1C4B56150004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89FC40B21C4B56150004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89FC40B71C4B56160004833A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 		89FC40721C4B460E0004833A /* ios-localize-me */ = {
 			isa = PBXGroup;
 			children = (
+				89FC40B81C4B56160004833A /* Localizable.strings */,
+				89FC40B31C4B56150004833A /* InfoPlist.strings */,
 				89FC40731C4B460E0004833A /* AppDelegate.swift */,
 				89FC40751C4B460E0004833A /* ViewController.swift */,
 				89FC40771C4B460E0004833A /* Main.storyboard */,
@@ -115,6 +125,7 @@
 		89FC40871C4B460E0004833A /* ios-localize-meTests */ = {
 			isa = PBXGroup;
 			children = (
+				89FC40AE1C4B56150004833A /* InfoPlist.strings */,
 				89FC40881C4B460E0004833A /* ios_localize_meTests.swift */,
 				89FC408A1C4B460E0004833A /* Info.plist */,
 			);
@@ -124,6 +135,7 @@
 		89FC40921C4B460E0004833A /* ios-localize-meUITests */ = {
 			isa = PBXGroup;
 			children = (
+				89FC40A91C4B56150004833A /* InfoPlist.strings */,
 				89FC40931C4B460E0004833A /* ios_localize_meUITests.swift */,
 				89FC40951C4B460E0004833A /* Info.plist */,
 			);
@@ -235,9 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89FC40A21C4B46340004833A /* .gitignore in Resources */,
+				89FC40B61C4B56160004833A /* Localizable.strings in Resources */,
 				89FC407E1C4B460E0004833A /* LaunchScreen.storyboard in Resources */,
 				89FC407B1C4B460E0004833A /* Assets.xcassets in Resources */,
 				89FC40791C4B460E0004833A /* Main.storyboard in Resources */,
+				89FC40B11C4B56150004833A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FC40AC1C4B56150004833A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FC40A71C4B56150004833A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +331,38 @@
 				89FC40A41C4B51F00004833A /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		89FC40A91C4B56150004833A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89FC40A81C4B56150004833A /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89FC40AE1C4B56150004833A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89FC40AD1C4B56150004833A /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89FC40B31C4B56150004833A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89FC40B21C4B56150004833A /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89FC40B81C4B56160004833A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89FC40B71C4B56160004833A /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
